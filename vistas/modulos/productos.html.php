@@ -12,7 +12,11 @@
       
       <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
+<<<<<<< HEAD
+      <li class="active">Administrar Productos</li>
+=======
       <li class="active">Administrar</li>
+>>>>>>> test/master
     
     </ol>
 
