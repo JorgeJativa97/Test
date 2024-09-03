@@ -12,7 +12,7 @@
       
       <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Administrar clientes</li>
+      <li class="active">Administrar Clientes</li>
     
     </ol>
 
