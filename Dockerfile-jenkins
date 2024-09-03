@@ -3,7 +3,10 @@ FROM jenkins/jenkins:lts
 
 # Instala las dependencias necesarias
 USER root
-RUN apt-get update && \
+RUN groupadd -g 999 docker && \
+    usermod -aG docker jenkins && \
+    newgrp docker \
+    apt-get update && \
     apt-get install -y \
     curl \
     apt-transport-https \
