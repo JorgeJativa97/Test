@@ -41,3 +41,8 @@ services:
       PMA_PORT: 3306
     networks:
       - app_network
+networks:
+  app_network:
+
+volumes:
+  db_data:
