@@ -12,7 +12,7 @@
       
       <li><a href="inicio"><i class="fa fa-dashboard"></i> Inicio</a></li>
       
-      <li class="active">Administrar Categorías</li>
+      <li class="active">Administrar CategoríaS</li>
     
     </ol>
 
