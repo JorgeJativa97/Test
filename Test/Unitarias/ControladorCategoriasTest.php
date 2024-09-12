@@ -1,6 +1,7 @@
 <?php
 
-require_once 'C:\xampp\htdocs\pos\controladores\categorias.controlador.php';
+#require_once 'C:\xampp\htdocs\pos\controladores\categorias.controlador.php';
+require_once __DIR__ . '/../../controladores/categorias.controlador.php';
 use PHPUnit\Framework\TestCase;
 use Mockery as m;
 
