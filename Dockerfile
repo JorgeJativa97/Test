@@ -18,7 +18,8 @@ RUN chown -R www-data:www-data /var/www/html && \
 
 # Instala PHPUnit usando Composer
 WORKDIR /var/www/html
-RUN composer require --dev phpunit/phpunit ^10
+RUN rm -f composer.lock && composer install && composer require --dev phpunit/phpunit ^10
+
 
 # Expone el puerto 80
 EXPOSE 80
