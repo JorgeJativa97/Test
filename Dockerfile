@@ -6,6 +6,9 @@ RUN docker-php-ext-install mysqli pdo pdo_mysql && \
     docker-php-ext-enable mysqli pdo pdo_mysql && \
     a2enmod rewrite
 
+# Instala Git
+RUN apt-get update && apt-get install -y git
+
 # Instala Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
