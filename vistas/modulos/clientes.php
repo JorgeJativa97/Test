@@ -42,7 +42,7 @@ if($_SESSION["perfil"] == "Especial"){
   
         <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarCliente">
           
-          Agregar cliente
+          Agregar Cliente
 
         </button>
 
